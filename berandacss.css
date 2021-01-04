@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "tulisan-instagran tulisan-instagran . love kirim"
+    "instastory instastory instastory instastory instastory"
+    "konten konten konten konten konten"
+    "home explore tengah belanja profil";
+}
+
+.home { 
+	padding: 10px;
+	grid-area: home; }
+
+.explore { 
+	padding: 10px;
+	grid-area: explore; }
+
+.tengah { 
+	padding: 10px;
+	grid-area: tengah; }
+
+.belanja { 
+	padding: 10px;
+	grid-area: belanja; }
+
+.profil { 
+	padding: 10px;
+	grid-area: profil; }
+
+.konten { 
+	padding: 10px;
+	border: 2px solid #e6e6e6;
+	grid-area: konten; }
+
+.instastory { 
+	padding: 10px;
+	grid-area: instastory; }
+
+
+.tulisan-instagran { grid-area: tulisan-instagran; }
+
+.love { grid-area: love; }
+
+.kirim { grid-area: kirim; }
