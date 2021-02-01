@@ -1,0 +1,2 @@
+1.front end yang dibangun sesuai dengan rancangan yang telah dibuat di uas yaitu dimulai dari tampilan login,home dan fitur2 lainnya.
+2.https://drive.google.com/drive/folders/1XH6oTgMSi7zFRcfF9qRm0DFC_P-Yxk6P?usp=sharing
